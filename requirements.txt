@@ -1,3 +1,20 @@
+# ──────────────────────────────────────────────────────────────
+# Requirements for Sp3ctra MIDI to Score Generator
+# https://github.com/Ondulab/Sp3ctra-Midi-to-Score-Gen
+# ──────────────────────────────────────────────────────────────
+# Install with:
+#    pip install -r requirements.txt
+# Recommended Python version: ≥ 3.9
+# Create and activate a virtual environment before installing:
+#    python3 -m venv venv
+#    source venv/bin/activate
+# ──────────────────────────────────────────────────────────────
+
+# For parsing MIDI files
 mido
-svgwrite
+
+# For generating vector PDF scores
 reportlab
+
+# (Optional) For advanced terminal logging output
+# colorlog
